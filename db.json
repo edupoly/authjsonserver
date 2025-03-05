@@ -1,0 +1,66 @@
+{
+  "users": [
+    {
+      "username": "praveen",
+      "password": "123",
+      "role": "admin"
+    },
+    {
+      "username": "roja",
+      "password": "123",
+      "role": "manager"
+    },
+    {
+      "username": "sai",
+      "password": "123",
+      "role": "student"
+    },
+    {
+      "username": "raju",
+      "password": "123",
+      "role": "student"
+    },
+    {
+      "username": "ramya",
+      "password": "123",
+      "role": "manager"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "products": [
+    {
+      "title": "bat",
+      "price": 1200,
+      "model": "lg",
+      "id": 1
+    },
+    {
+      "title": "bails",
+      "price": "2000",
+      "model": "kookaburra",
+      "id": 4
+    },
+    {
+      "title": "sdfsdf",
+      "price": "34",
+      "model": "sdfsdf",
+      "id": 7
+    }
+  ]
+}
