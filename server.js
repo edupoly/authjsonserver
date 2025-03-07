@@ -15,12 +15,22 @@ server.post("/login",(req,res)=>{
   var p = users.find((user)=>{
     return (user.username===req.body.username && user.password===req.body.password)
   })
+  console.log(p)
   if(p){
     var token = jwt.sign(p,"evaddiki cheppaku")
-    res.send({msg:"SUCCESS",token})
+    res.send({msg:"SUCCESS",token,username:p.username,role:p.role})
   }
   else{
     res.send({msg:"FAILURE"})
+  }
+})
+server.get("/getDetailsByToken",(req,res)=>{
+  try{
+    var x = jwt.verify(req.headers.token,"evaddiki cheppaku")
+    res.send({msg:"UPDATED",username:x.username,role:x.role})
+  }
+  catch(e){
+    res.send({msg:"ERROR"})
   }
 })
 // server.use(function(req,res,next){
