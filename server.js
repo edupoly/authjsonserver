@@ -27,7 +27,7 @@ server.post("/login",(req,res)=>{
 server.get("/getDetailsByToken",(req,res)=>{
   try{
     var x = jwt.verify(req.headers.token,"evaddiki cheppaku")
-    res.send({msg:"UPDATED",username:x.username,role:x.role})
+    res.send({msg:"UPDATED",username:x.username,role:x.role,token:req.headers.token})
   }
   catch(e){
     res.send({msg:"ERROR"})

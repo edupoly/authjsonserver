@@ -1,4 +1,83 @@
 {
+  "leads": [
+    {
+      "fullname": "vani",
+      "mobile": "123",
+      "email": "van@gmail",
+      "course": "Reactjs",
+      "remarks": [
+        {
+          "text": "MORNING",
+          "timestamp": 1741593371720
+        }
+      ],
+      "id": 1
+    },
+    {
+      "fullname": "manikanta",
+      "mobile": "1231323",
+      "email": "askjdh@gmail.com",
+      "course": "REACTJS",
+      "remarks": [
+        {
+          "text": "uytuy",
+          "timestamp": 1741678133018
+        },
+        {
+          "text": "naistam nenu ranu",
+          "timestamp": 1741767120980
+        },
+        {
+          "text": "emindira",
+          "timestamp": 1741767332960
+        },
+        {
+          "text": "ee sari pakka vastha sir",
+          "timestamp": 1741767398827
+        }
+      ],
+      "id": 5
+    },
+    {
+      "fullname": "tanvi",
+      "mobile": "998822",
+      "email": "tan@skdfj",
+      "course": "ANGULAR",
+      "remarks": [
+        {
+          "text": "Midnight",
+          "timestamp": 1741763907731
+        }
+      ],
+      "id": 6
+    },
+    {
+      "fullname": "kiran abbavaram",
+      "mobile": "333444",
+      "email": "kir",
+      "course": "REACTJS",
+      "remarks": [
+        {
+          "text": "noonshow",
+          "timestamp": 1741763977512
+        }
+      ],
+      "id": 7
+    },
+    {
+      "fullname": "lata",
+      "mobile": "2929",
+      "email": "lata@gmailx.om",
+      "course": "REACTJS",
+      "remarks": [
+        {
+          "text": "eppudina ok",
+          "timestamp": 1741764188792
+        }
+      ],
+      "id": 8
+    }
+  ],
   "users": [
     {
       "username": "praveen",
